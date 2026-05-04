@@ -1,6 +1,10 @@
-# RyTeX - Research Template
+# Ryst - TeX - Research Template
+
+## Rust Template
+
+The `template-rs`
 
 ## Python Template
 
-## Rust Template
+The `template-py`
 
