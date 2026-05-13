@@ -1,0 +1,10 @@
+\NeedsTeXFormat{LaTeX2e}\ProvidesPackage{tarel-tikz}[TeX tikz styles]
+\RequirePackage{tikz}
+\usetikzlibrary{positioning,arrows.meta,calc,fit,backgrounds}
+\tikzset{
+  state/.style={rectangle,rounded corners=2.5pt,draw=stateEdge,
+                fill=stateFill,minimum width=6.4cm,minimum height=0.95cm,
+                align=center,inner sep=5pt},
+  op/.style={...},
+  arr/.style={-{Stealth[length=2.6mm,width=2.0mm]},line width=1.0pt,
+              draw=arrowCol}}

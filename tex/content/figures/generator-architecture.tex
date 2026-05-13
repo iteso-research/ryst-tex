@@ -1,0 +1,6 @@
+\begin{tikzpicture}[font=\small]
+  \node[iostate] (z) {$z \sim \mathcal{N}(\mathbf{0},\mathbf{I}_{128})$ ...};
+  \node[state, below=1.45cm of z] (h1) {$\mathbf{h}^{(1)}\in\mathbb{R}^{512\times4\times4}$};
+  \draw[arr] (z) -- (h1) node[op,midway] {\textbf{Stage 1}\\$\ConvT{128\to512}{4}{1}$ ...};
+  ...
+\end{tikzpicture}
